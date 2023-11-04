@@ -28,13 +28,16 @@ EcoMundo is a non-profit organization dedicated to environmental conservation an
 - Bootstrap
 - JavaScript
 
-## Instructions for Local Setup
+## Website screenshots
 
-1. Clone this repository to your local machine.
-2. Open the project folder in your preferred code editor.
-3. Launch the `index.html` file to view the website locally.
-4. Explore the website, and feel free to make changes as needed.
-5. To contact us, use the provided contact form on the website.
+![919shots_so](https://github.com/Crypto-ch4r/MundoEco/assets/61950097/bf8aa058-ac90-4d55-9008-64c32afb836e)
+<br>
+![123shots_so](https://github.com/Crypto-ch4r/MundoEco/assets/61950097/2ac175e1-20cc-4900-b329-8e2556dbb201)
+<br>
+![452shots_so](https://github.com/Crypto-ch4r/MundoEco/assets/61950097/1847a382-629a-4bc2-9013-37525670e872)
+<br>
+![809shots_so](https://github.com/Crypto-ch4r/MundoEco/assets/61950097/0f5425d3-58aa-4658-870b-9e630ccfebef)
+
 
 ## Contributing
 
