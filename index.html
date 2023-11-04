@@ -3,9 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="css/styles.css">
     <title>EcoMundo | Inicio </title>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header id="header" class="vh-100 text-bg-success header-image">
+        <nav class="navbar navbar-expand-md bg-succes">
+            <div class="container">
+                <a href="#" class="navbar-brand fs-2 text-white">EcoMundo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#header" class="nav-link text-white">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#quienes-somos" class="nav-link text-white">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacto" class="nav-link text-white">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Showcacase-->
+        <div class="container d-flex flex-column justify-content-center align-items-center text-center h-100 header-content">
+            <!-- <h1 class="display-4">EcoMundo</h1> -->
+            <p class="text-uppercase fs-4">Creando un futuro más verde y brillante para todos. Nuestra visión es un mundo en armonía con la naturaleza. ¿Compartes esta visión?</p>
+            <a href="#quienes-somos" class="btn btn-outline-light btn-lg mt-2">¡Conócenos!</a>
+        </div>       
+    </header>
+
+    <!-- Quienes somos -->
+    <section id="quienes-somos" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="mb-4">¿Quiénes somos?</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+            <div class="row">
+                <!-- Card #1 -->
+                <div class="col-md-3 mb-2">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-building-ngo fa-3x my-3" style="color:  #005701;"></i>
+                            <h5 class="fw-bold pb-2">Somos una ONG</h5>
+                            <p class="text-muted">
+                                Somos una organización no gubernamental sin fines de lucro comprometida con el
+                                desarrollo sostenible y la conservación del medio ambiente. Fundada por jóvenes 
+                                apasionados que buscan un cambio significativo en el mundo en el que vivimos y que heredarán 
+                                las futuras generaciones.
+                            <!-- <a href="#" class="btn btn-dark btn-sm text-uppercase">Leer más</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card #2 -->
+                <div class="col-md-3 mb-2">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-earth-americas fa-3x my-3" style="color: #005701;"></i>
+                            <h5 class="fw-bold pb-2">Nuestra misión</h5>
+                            <p class="text-muted">
+                                Somos un equipo apasionado comprometido con la preservación del planeta. Nuestra misión es inspirar y movilizar 
+                                a individuos y comunidades para adoptar prácticas sostenibles y tomar medidas concretas para proteger el medio 
+                                ambiente. Creemos en un mundo en equilibrio, donde la naturaleza y la humanidad prosperan juntas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card #3 -->
+
+                <div class="col-md-3 mb-2">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-heart fa-3x my-3" style="color:  #005701;"></i>
+                            <h5 class="fw-bold pb-2">Nuestros valores</h5>
+                            <p class="text-muted">
+                                En EcoMundo, nos guiamos por valores fundamentales que reflejan nuestro compromiso con la sostenibilidad y la 
+                                conservación del medio ambiente. Valoramos la integridad, la colaboración, la innovación y la pasión por la 
+                                naturaleza. Estos valores son la base de nuestro enfoque en la búsqueda de soluciones creativas y efectivas 
+                                para los desafíos ambientales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card #4 -->
+
+                <div class="col-md-3 mb-2">
+                    <div class="card custom-card">
+                        <div class="card-body">
+                            <i class="fa-solid fa-group-arrows-rotate fa-3x my-3" style="color:  #005701;"></i>
+                            <h5 class="fw-bold pb-2">Nuestra comunidad</h5>
+                            <p class="text-muted">
+                                En EcoMundo, no estamos solos en nuestra misión. Contamos con una comunidad diversa de defensores del medio 
+                                ambiente, voluntarios y colaboradores comprometidos. Trabajamos juntos para crear un impacto positivo en todo el mundo. 
+                                Únete a nuestra comunidad y sé parte del cambio que el mundo necesita. Juntos, podemos lograr mucho más.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acciones" class="py-5 bg-info-subtle">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="mb-4">Actúa <span class="text-success">Ahora</span>: EcoPasos para un Mundo Mejor</h2>
+                <hr class="w-25 mx-auto">
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="/img/acciones.jpg" alt="" class="img-fluid rounded-5">
+                </div>
+                <div class="col-md-7">
+                    <ul class="list-unstyled mt-2">
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-recycle fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Reutilizar, Reciclar:</span> Practica el lema de las tres "R" para minimizar los desechos. 
+                                Reduce el consumo de productos desechables, reutiliza objetos siempre que sea posible y recicla 
+                                materiales como papel, vidrio y plástico.</p>
+                        </li>
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-leaf fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Conservación de Energía:</span> Reduce tu huella de carbono disminuyendo el consumo de energía. 
+                                Apaga las luces y dispositivos electrónicos cuando no los necesites, utiliza bombillas de bajo consumo y considera la instalación de 
+                                fuentes de energía renovable, como paneles solares.</p>
+                        </li>
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-bus-simple fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Transporte sostenible:</span> Opta por medios de transporte sostenibles, como caminar, andar en bicicleta, 
+                                usar el transporte público o compartir vehículos. Estas opciones reducen las emisiones de gases de efecto invernadero y alivian la congestión
+                                del tráfico.</p>
+                        </li>
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-store fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Consumo responsable:</span> Compra productos de empresas comprometidas con prácticas sostenibles y éticas. 
+                                Prefiere alimentos locales y orgánicos, reduce el consumo de carne y apoya la reutilización de productos en lugar de comprar siempre nuevos.</p>
+                        </li>
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-hand-holding-droplet fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Conservación del agua:</span> Utiliza el agua de manera eficiente en tu hogar. Repara las fugas, instala dispositivos 
+                                de bajo flujo y evita el desperdicio de agua. Considera la recolección de agua de lluvia para usos no potables.</p>
+                        </li>
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-people-arrows fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Participación comunitaria:</span> Únete a grupos locales o comunidades que se dediquen a la conservación del medio ambiente. 
+                                Participa en proyectos de limpieza, reforestación y educación ambiental para generar un impacto positivo en tu área.</p>
+                        </li>
+
+                        <li class="d-flex mb-3">
+                            <i class="fa-solid fa-person-chalkboard fa-2x mx-4" style="color:  #005701;"></i>
+                            <p><span class="text-success-emphasis">Educación y Concienciación:</span> Informa a otros sobre la importancia de la conservación del medio ambiente y la sostenibilidad.
+                                Comparte tu conocimiento y promueve la toma de conciencia en tu familia, amigos y comunidad.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#contacto" class="btn btn-outline-success btn-lg mt-2">¡Conoce más!</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 bg-success-subtle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="/img/contactanos.jpg" alt="" class="img-fluid rounded-5">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="my-4 text-center">¿Te interesa ser parte del <span class="text-success">cambio</span>? ¡Contáctanos!</h2>
+                
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mainfooter bg-success py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center small">&copy; EcoMundo - Todos los derechos reservados 2023</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

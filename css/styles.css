@@ -1,0 +1,32 @@
+.custom-card {
+        height: 100%;
+    }
+
+.navbar {
+        z-index: 2; /* Coloca el navbar por encima del fondo oscuro */
+    }
+    
+.header-content {
+        position: relative; /* Asegura que el z-index funcione */
+        z-index: 2; /* Coloca el contenido del header por encima del fondo oscuro */
+    }
+    
+
+.header-image {
+        background-image: url('https://get.pxhere.com/photo/sunflowers-day-sky-field-flower-sunflower-yellow-plant-flowering-plant-plantation-crop-spring-farm-landscape-cash-crop-wildflower-sunflower-seed-agriculture-horizon-daisy-family-plain-meadow-cloud-vegetarian-food-asterales-annual-plant-perennial-plant-1609323.jpg');
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
+        background-position: center; /* Centra la imagen en el encabezado */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+
+.header-image::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5); /* Color oscuro con opacidad 0.5 */
+        z-index: 1; /* Coloca el fondo oscuro encima de la imagen de fondo */
+    }
+    
