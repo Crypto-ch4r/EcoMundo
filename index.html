@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>EcoMundo | Inicio </title>
+    <title>MundoEco | Inicio </title>
 </head>
 <body>
     <!-- Header -->
     <header id="header" class="vh-100 text-bg-success header-image">
         <nav class="navbar navbar-expand-md bg-succes">
             <div class="container">
-                <a href="#" class="navbar-brand fs-2 text-white">EcoMundo</a>
+                <a href="#" class="navbar-brand fs-2 text-white">MundoEco</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -35,7 +36,7 @@
 
         <!-- Showcacase-->
         <div class="container d-flex flex-column justify-content-center align-items-center text-center h-100 header-content">
-            <!-- <h1 class="display-4">EcoMundo</h1> -->
+            <!-- <h1 class="display-4">MundoEco</h1> -->
             <p class="text-uppercase fs-4">Creando un futuro más verde y brillante para todos. Nuestra visión es un mundo en armonía con la naturaleza. ¿Compartes esta visión?</p>
             <a href="#quienes-somos" class="btn btn-outline-light btn-lg mt-2">¡Conócenos!</a>
         </div>       
@@ -43,7 +44,7 @@
 
     <!-- Quienes somos -->
     <section id="quienes-somos" class="py-5">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <div class="text-center">
                 <h2 class="mb-4">¿Quiénes somos?</h2>
                 <hr class="w-25 mx-auto">
@@ -88,7 +89,7 @@
                             <i class="fa-solid fa-heart fa-3x my-3" style="color:  #005701;"></i>
                             <h5 class="fw-bold pb-2">Nuestros valores</h5>
                             <p class="text-muted">
-                                En EcoMundo, nos guiamos por valores fundamentales que reflejan nuestro compromiso con la sostenibilidad y la 
+                                En MundoEco, nos guiamos por valores fundamentales que reflejan nuestro compromiso con la sostenibilidad y la 
                                 conservación del medio ambiente. Valoramos la integridad, la colaboración, la innovación y la pasión por la 
                                 naturaleza. Estos valores son la base de nuestro enfoque en la búsqueda de soluciones creativas y efectivas 
                                 para los desafíos ambientales.
@@ -105,7 +106,7 @@
                             <i class="fa-solid fa-group-arrows-rotate fa-3x my-3" style="color:  #005701;"></i>
                             <h5 class="fw-bold pb-2">Nuestra comunidad</h5>
                             <p class="text-muted">
-                                En EcoMundo, no estamos solos en nuestra misión. Contamos con una comunidad diversa de defensores del medio 
+                                En MundoEco, no estamos solos en nuestra misión. Contamos con una comunidad diversa de defensores del medio 
                                 ambiente, voluntarios y colaboradores comprometidos. Trabajamos juntos para crear un impacto positivo en todo el mundo. 
                                 Únete a nuestra comunidad y sé parte del cambio que el mundo necesita. Juntos, podemos lograr mucho más.
                             </p>
@@ -117,7 +118,7 @@
     </section>
 
     <section id="acciones" class="py-5 bg-info-subtle">
-        <div class="container">
+        <div class="container" data-aos="fade-down">
             <div class="text-center">
                 <h2 class="mb-4">Actúa <span class="text-success">Ahora</span>: EcoPasos para un Mundo Mejor</h2>
                 <hr class="w-25 mx-auto">
@@ -187,24 +188,40 @@
     <section id="contacto" class="py-5 bg-success-subtle">
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-right">
                     <img src="/img/contactanos.jpg" alt="" class="img-fluid rounded-5">
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7" data-aos="fade-left">
                     <h2 class="my-4 text-center">¿Te interesa ser parte del <span class="text-success">cambio</span>? ¡Contáctanos!</h2>
-                
+                    <div class="contact-form p-4 bg-white shadow rounded">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar Mensaje</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            
         </div>
     </section>
+    
 
     <!-- Footer -->
-    <footer class="mainfooter bg-success py-4">
+    <footer class="mainfooter bg-warning-subtle py-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-center small">&copy; EcoMundo - Todos los derechos reservados 2023</p>
+                    <p class="text-center small">&copy; MundoEco - Todos los derechos reservados 2023</p>
                 </div>
             </div>
         </div>
@@ -212,6 +229,12 @@
     </footer>
 
    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script>
+            AOS.init({
+              duration: 1000, // Duración de la animación en milisegundos
+            });
+          </script>          
+    </body>
 </html>
