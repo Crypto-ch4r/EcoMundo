@@ -28,5 +28,6 @@
         left: 0;
         background-color: rgba(0, 0, 0, 0.5); /* Color oscuro con opacidad 0.5 */
         z-index: 1; /* Coloca el fondo oscuro encima de la imagen de fondo */
+        background-size: cover;
     }
     
