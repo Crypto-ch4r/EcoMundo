@@ -10,6 +10,14 @@
         position: relative; /* Asegura que el z-index funcione */
         z-index: 2; /* Coloca el contenido del header por encima del fondo oscuro */
     }
+
+.webp .header-image{
+    background-image: url('/img/header.webp');
+}
+
+.no-webp .header-image{
+    background-image: url('/img/header.jpg');
+}
     
 
 .header-image {
